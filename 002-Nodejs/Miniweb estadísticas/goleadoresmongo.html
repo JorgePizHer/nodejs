@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Laliga Stats</title>
+        <meta charset="utf-8">
+        <style>
+            ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: #333;
+            }
+
+            li {
+              float: left;
+            }
+
+            li a {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+            }
+
+            li a:hover:not(.active) {
+              background-color:#fa7070 ;
+            }
+
+            li a.active {
+              background-color: #fa7070;
+            }
+            
+            table, th, td {
+                border:2px solid white;
+                border-collapse: collapse;
+            }
+            th, td {
+                background-color: #fa7070;
+            }
+            #asistencias {
+                background-color: #6592a3;
+            }
+             #encajados {
+                background-color: #79b09a;
+            }
+            th {
+                color: white;
+            }
+            td {
+                text-align: center;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 align = center>Laliga stats</h1>
+        <ul>
+            <li> <a class = "active" href="/">Inicio</a></li>
+            <li> <a href="/barcelona">FC Barcelona</a></li>
+            <li> <a href="/getafe">Getafe CF</a></li>
+            <li> <a href="/realmadrid">Real Madrid CF</a></li>
+            <li> <a href="/valencia">Valencia FC</a></li>
+        </ul>
+        
+        <h2 align = center>Goleadores</h2>
+
+            <table id=goleadores align = center>
+              <tr>
+                <th style="width:45%">Jugador</th>
+                <th style="width:12%">Goles</th>
+                <th style="width:43%">Equipo</th>
+              </tr>
+              <tr>
+                <td>
+                <tr>
+                    <td>Jude Bellingham</td>
+                    <td>16</td>
+                    <td>Real Madrid</td>
+                </tr>
+            
+                <tr>
+                    <td>Borja Mayoral</td>
+                    <td>15</td>
+                    <td>Getafe</td>
+                </tr>
+            
+                <tr>
+                    <td>Álvaro Morata</td>
+                    <td>14</td>
+                    <td>Atlético de Madrid</td>
+                </tr>
+            
+                <tr>
+                    <td>Artem Dovbyk</td>
+                    <td>14</td>
+                    <td>Girona</td>
+                </tr>
+            
+                <tr>
+                    <td>Robert Lewandowski</td>
+                    <td>13</td>
+                    <td>Barcelona</td>
+                </tr>
+            
+                <tr>
+                    <td>Alexander Sorloth</td>
+                    <td>12</td>
+                    <td>Villarreal</td>
+                </tr>
+            </td>
+              </tr>
+            </table>
+        
+        <h2 align = center>Asistentes</h2>
+
+            <table id = "asistencias" align = center>
+              <tr>
+                <th id = "asistencias" style="width:45%">Jugador</th>
+                <th id = "asistencias" style="width:12%">Asistencias</th>
+                <th id = "asistencias" style="width:43%">Equipo</th>
+              </tr>
+              <tr>
+                <td id = "asistencias" >Álex Baena</td>
+                <td id = "asistencias">9</td>
+                <td id = "asistencias">Villarreal</td>
+              </tr>
+              <tr >
+                <td id = "asistencias">Savio</td>
+                <td id = "asistencias">7</td>
+                <td id = "asistencias">Girona</td>
+              </tr>
+              <tr>
+                <td id = "asistencias">Kroos</td>
+                <td id = "asistencias">7</td>
+                <td id = "asistencias">Real Madrid</td>
+              </tr>
+              <tr>
+                <td id = "asistencias">Diego Rico</td>
+                <td id = "asistencias">7</td>
+                <td id = "asistencias">Getafe</td>
+              </tr>
+              <tr>
+                <td id = "asistencias">Yan Couto</td>
+                <td id = "asistencias">7</td>
+                <td id = "asistencias">Girona</td>
+              </tr>
+            </table>
+        <h2 align = center>Goles encajados por partido</h2>
+
+            <table id = "encajados" align = center>
+              <tr>
+                <th id = "encajados" style="width:45%">Jugador</th>
+                <th id = "encajados" style="width:12%">Goles encajados</th>
+                <th id = "encajados" style="width:43%">Equipo</th>
+              </tr>
+              <tr>
+                <td id = "encajados" >Andriy Lunin</td>
+                <td id = "encajados">0.6</td>
+                <td id = "encajados">Real Madrid</td>
+              </tr>
+              <tr >
+                <td id = "encajados">Unai Simón</td>
+                <td id = "encajados">1.0</td>
+                <td id = "encajados">Athletic Club</td>
+              </tr>
+              <tr>
+                <td id = "encajados">Álex Remiro</td>
+                <td id = "encajados">1.0</td>
+                <td id = "encajados">Real Sociedad</td>
+              </tr>
+              <tr>
+                <td id = "encajados">Orjan Nyland</td>
+                <td id = "encajados">1.0</td>
+                <td id = "encajados">Sevilla</td>
+              </tr>
+              <tr>
+                <td id = "encajados">Rui Silva</td>
+                <td id = "encajados">1.1</td>
+                <td id = "encajados">Real Betis</td>
+              </tr>
+            </table>
+        
+    </body>
+
+</html>

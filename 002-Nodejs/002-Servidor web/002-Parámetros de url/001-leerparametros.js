@@ -2,7 +2,6 @@ var servidor = require('http');
 var ruta = require('url');
 
 servidor.createServer(function(req,res){
-    fecha = new Date();
     res.writeHead(200,{'Content-Type':'text/html'});
     var parametros = ruta.parse(req.url,true).query;
     res.write("Tu nombre es " + parametros.nombre);
